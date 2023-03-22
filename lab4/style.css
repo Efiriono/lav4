@@ -1,0 +1,26 @@
+.page-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    grid-template-columns: 1fr 160px;
+    padding: 30px 20px 70px 20px;
+}
+
+.page-main{
+    margin-top: 140px;
+}
+
+.days-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    padding: 25px 20px 40px 20px;
+}
+
+
+.page-footer{
+    padding: 10px 20px 20px 20px;
+}
